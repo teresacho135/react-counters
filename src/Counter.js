@@ -3,11 +3,8 @@ import React, { Component } from "react";
 class Counter extends Component {
   // need to have counter value (0,1,2,-3)
 
-  constructor() {
-    super()
-    this.state = {
-      count: 0
-    }
+  state = {
+    count: 0
   }
 
   increment = () => {
