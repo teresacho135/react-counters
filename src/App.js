@@ -3,11 +3,8 @@ import Header from "./Header";
 import CounterList from "./CounterList";
 
 class App extends Component {
-  constructor(){
-    super()
-    this.state = {
-      counters: 0
-    }
+  state = {
+    counters: 0
   }
 
   increaseCounters = () => {
